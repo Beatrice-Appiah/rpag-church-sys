@@ -33,35 +33,31 @@ Before running this project, ensure you have the following installed:
 
 ### 2. Backend Setup (Server)
 Navigate to the server directory and install dependencies:
-``bash 
+``bash
 cd server
 npm install
-``
 
 ## Create a .env file in the server folder with your database credentials:
-- DB_HOST=localhost
-- DB_USER=root
-- DB_PASSWORD=your_password
-- DB_NAME=rpag_db
-- PORT=5000
+
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=your_password
+DB_NAME=rpag_db
+PORT=5000
 
 ## Start the backend server:
-``bash
 node server.js
 The server will run on http://localhost:5000
-``
 
 ### 3. Frontend Setup (Client)
 Open a new terminal, navigate to the client directory, and install dependencies:
+
 ``bash
 cd client
 npm install
-``
 
 ## Start the React application:
-``bash
 npm start
-``
 * The application will open automatically at http://localhost:3000
 
 🧪 Running Tests
@@ -69,17 +65,16 @@ This project includes automated unit tests for the frontend interface. To run th
 ``bash
 cd client
 npm test
-``
 
 ## 📸 Screenshots
-![Attendnace Page](./Screenshots/Attendnace-1.png)
-![Attendnace Page-2](./Screenshots/Attendance-2.png)
+![Attendnace Page](./screenshots/Attendance-1.png)
+![Attendnace Page-2](./screenshots/Attendance-2.png)
 
-![Giving Page](./Screenshots/giving-1.png)
-![Giving Page-2](./Screenshots/giving-2.png)
+![Giving Page](./screenshots/giving-1.png)
+![Giving Page-2](./screenshots/giving-2.png)
 
-![Memebers Page](./Screenshots/members-1.png)
-![Memebers Page-2](./Screenshots/members-2.png)
+![Memebers Page](./screenshots/members-1.png)
+![Memebers Page](./screenshots/members-2.png)
 
 
 ### 👤 Author
